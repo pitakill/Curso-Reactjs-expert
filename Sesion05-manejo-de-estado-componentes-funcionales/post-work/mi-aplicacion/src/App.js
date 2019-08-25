@@ -8,9 +8,6 @@ function App(props) {
   const [data, setData] = React.useState([])
 
   React.useEffect(() => {
-    // fetch(URL)
-    // .then(r => r.json())
-    // .then(r => setData(r.results))
     setData(fakeData)
   }, [])
 
